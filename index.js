@@ -49,9 +49,18 @@ const questions = [
       message: 'Enter the author email:',
     },
   ];
+  
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+function writeToFile(fileName, data) {
+    const content = generateReadme(data);
+    fs.writeFile(fileName, content, (err) => {
+      if (err) {
+        console.error('An error occurred while writing the file:', err);
+      } else {
+        console.log('README file has been successfully generated!');
+      }
+    });
+  }
 // TODO: Create a function to initialize app
 function init() {}
 
