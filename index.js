@@ -49,7 +49,7 @@ const questions = [
       message: 'Enter the author email:',
     },
   ];
-  
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     const content = generateReadme(data);
@@ -61,6 +61,48 @@ function writeToFile(fileName, data) {
       }
     });
   }
+  
+  function generateReadme(data) {
+    return `
+    # ${data.title}
+    
+    ${data.description}
+    
+    ## Table of Contents
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contributing](#contributing)
+    - [Tests](#tests)
+    - [License](#license)
+    - [Author](#author)
+    
+    ## Installation
+    
+    ${data.installation}
+    
+    ## Usage
+    
+    ${data.usage}
+    
+    ## Contributing
+    
+    ${data.contributing}
+    
+    ## Tests
+    
+    ${data.tests}
+    
+    ## License
+    
+    ${data.license}
+    
+    ## Author
+    
+    ${data.author}
+    ${data.email}
+    `;
+    }
+  
 // TODO: Create a function to initialize app
 function init() {}
 
