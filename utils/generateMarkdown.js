@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
 if (!license) {
   return '';
 }
@@ -24,8 +24,31 @@ switch (license.toLowerCase()) {
 
 return licenseBadge;
 }
-function renderLicenseLink(license) {}
 
+function renderLicenseLink(license) {
+if (!license) {
+  return '';
+}
+
+let licenseLink = '';
+
+switch (license.toLowerCase()) {
+  case 'mit':
+    licenseLink = 'This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).';
+    break;
+  case 'apache 2.0':
+    licenseLink = 'This project is licensed under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).';
+    break;
+  case 'gnu gpl v3':
+    licenseLink = 'This project is licensed under the [GNU GPL v3 License](https://www.gnu.org/licenses/gpl-3.0).';
+    break;
+  default:
+    licenseLink = '';
+    break;
+}
+
+return licenseLink;
+}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
