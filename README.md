@@ -1,6 +1,6 @@
-# 11111 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# MY README GENERATOR [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-111222
+MY README YAY
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,19 +16,19 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Installation
 
-111333
+node index.js
 
 ## Usage
 
-111444
+node index.js
 
 ## Contributing
 
-1115555
+none
 
 ## Tests
 
-1112222
+node index.js
 
 
 ## License
@@ -38,5 +38,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Author
 
-chris
-chris
+Chris
+Sutton
