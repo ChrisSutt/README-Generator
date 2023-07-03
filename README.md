@@ -1,6 +1,6 @@
-# README Generator - Chris [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Readme Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-I've made an easy to use README generator using node.js
+This is my nodejs readme generator
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,19 +16,19 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Installation
 
-//node.js url. locate index.js run $ node index.js
+node.js
 
 ## Usage
 
-Above information
+terminal - run node index.js
 
 ## Contributing
 
-Email me
+email me
 
 ## Tests
 
-n/a
+run node index.js
 
 
 ## License
