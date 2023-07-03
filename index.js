@@ -37,7 +37,7 @@ const questions = [
     {
       type: 'input',
       name: 'license',
-      message: 'Enter the project license:',
+      message: 'Enter the project license:[MIT], [Apache 2.0], [gnu gpl v3]',
     },
     {
       type: 'input',
@@ -51,6 +51,7 @@ const questions = [
     },
   ];
 
+  //function to write to the file creating the README.md
   function writeToFile(fileName, data) {
     const content = generateMarkdown(data);
     fs.writeFile(fileName, content, (err) => {
@@ -62,6 +63,7 @@ const questions = [
     });
   }
   
+  // Function to initiaite the application
   function init() {
     inquirer.prompt(questions).then((answers) => {
       writeToFile('README.md', answers);
