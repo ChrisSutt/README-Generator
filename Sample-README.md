@@ -1,6 +1,6 @@
-# README Generator - Node.js [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Readme Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-I've made a quick and easy to use README.md generator using Node.JS
+This is my nodejs readme generator
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,32 +16,19 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Installation
 
-* Install [Git](https://gitforwindows.org/)
-* Install [Node.Js](https://nodejs.org/en/download)
+node.js
 
 ## Usage
 
-* Clone the repo to your drive
-* Using Terminal navigate to README-Generator
-* type $ install npm (this installs inquirer)
-* type $ node index.js
-* Fill out each prompt with your desired information
-* Once completed. You'll have a generated README.md in your README-Generator folder
-
-##Screenshot
-
-<img
-  src="images\READMEIMG.png"
-  alt="README"
-  style="display: left; margin: 0 auto; max-width: 500px">
+terminal - run node index.js
 
 ## Contributing
 
-Email me for contributions
+email me
 
 ## Tests
 
-n/a
+run node index.js
 
 
 ## License
@@ -53,7 +40,3 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 Chris Sutton
 Sutt.Chris@outlook.com
-
-## References
-
-* [Switch / Case / Break notes](https://www.w3schools.com/js/js_switch.asp)
